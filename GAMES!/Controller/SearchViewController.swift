@@ -36,6 +36,8 @@ class SearchViewController: UIViewController {
 
 extension SearchViewController: UISearchBarDelegate {
 
+    //  NOTE: Left some internet Connectivity code I tried in here.  Hope to get some feedback on how I can successfully accomplish this.
+
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
 //        if Networking.isConnectedToInternet() {
             request?.cancel()

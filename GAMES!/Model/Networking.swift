@@ -15,6 +15,7 @@ class Networking {
     static let apiKey = "136a8ff80c965e0b18dacef681fa7ba7434517ea"
 
     enum Endpoints {
+        // NOTE: Used this enum to store URL parts and concatenate them.  Just looks kinda funny when there is only one URL piece.
         static let baseURL = "https://www.giantbomb.com/api/search/?api_key=\(Networking.apiKey)&format=json"
 
         case search(String)
@@ -61,6 +62,8 @@ class Networking {
         }
         task.resume()
     }
+
+    // NOTE: Could not get this function to work.  Would have called from SearchViewController and DetailVC on all network calls.
 
     class func isConnectedToInternet() -> Bool {
         var connected = false

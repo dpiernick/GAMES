@@ -37,12 +37,8 @@ class DetailVC: UIViewController {
 
         if let description = game.description {
             webview.loadHTMLString(description, baseURL: nil)
-            webview.scalesp
         } else {
             descriptionLabel.text = "No Description Available!"
         }
     }
-
-
-
 }
