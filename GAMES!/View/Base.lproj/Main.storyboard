@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BUx-06-z8K">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Wfg-hs-LZo">
+            <objects>
+                <viewController id="BUx-06-z8K" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cof-Ze-Vax">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giant-bomb3" translatesAutoresizingMaskIntoConstraints="NO" id="nGy-fN-1oW">
+                                <rect key="frame" x="67" y="247" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cMQ-mA-gEK" firstAttribute="bottom" secondItem="nGy-fN-1oW" secondAttribute="bottom" constant="292" id="VoY-Nj-i2d"/>
+                            <constraint firstItem="cMQ-mA-gEK" firstAttribute="trailing" secondItem="nGy-fN-1oW" secondAttribute="trailing" constant="68" id="Xdh-oy-oFX"/>
+                            <constraint firstItem="nGy-fN-1oW" firstAttribute="top" secondItem="cMQ-mA-gEK" secondAttribute="top" constant="227" id="fts-NE-Fiw"/>
+                            <constraint firstItem="nGy-fN-1oW" firstAttribute="leading" secondItem="cMQ-mA-gEK" secondAttribute="leading" constant="67" id="qRr-6N-JUG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cMQ-mA-gEK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kvf-rg-XQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-556" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GAMES_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="giant-bomb3" width="1000" height="563"/>
+    </resources>
+</document>
